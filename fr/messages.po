@@ -30,7 +30,7 @@ msgstr "- Défendre cette région aura un malus de <0>{0}</0>."
 #. placeholder {0}: -region.development * 0.5
 #: src/pages/region/[regionId]/index.tsx:191
 msgid "- Development income is reduced by 50%:<0>{0}</0>."
-msgstr "- Les revenus de développement sont réduits de 50%:<0>{0}</0>."
+msgstr "- Les revenus de développement sont réduits de 50% :<0>{0}</0>."
 
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
@@ -155,7 +155,7 @@ msgstr "<0/> à <1>{0}</1> de salaire.{1}"
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:294
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
-msgstr "<0/> achète votre région <1/> pour <2>{0}</2>"
+msgstr "<0/> achète ta région <1/> pour <2>{0}</2>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:918
 msgid "<0/> commented on your article <1/>"
@@ -198,7 +198,7 @@ msgstr "<0/> a financé une révolte en <1/> pour <2/> contre <3/>"
 #. placeholder {0}: data.wage
 #: src/components/_user/notification/notification.frontConfig.tsx:548
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
-msgstr "<0/> vous a licencié de votre emploi de <1>{0}</1> dans <2/>"
+msgstr "<0/> t'a licencié de ton emploi de <1>{0}</1> dans <2/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:45
 msgid "<0/> gifted a sub to <1/>"
@@ -341,7 +341,7 @@ msgstr "<0/> a fait la paix avec <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1313
 msgid "<0/> mentioned you in a message <1/>"
-msgstr "<0/> vous a mentionné dans un message <1/>"
+msgstr "<0/> t'a mentionné dans un message <1/>"
 
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
@@ -353,7 +353,7 @@ msgstr "<0/> a publié un nouvel article"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:699
 msgid "<0/> referred you to the game."
-msgstr "<0/> t'a invité au jeu."
+msgstr "<0/> t'a parrainé sur le jeu."
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
 #: src/components/_user/notification/notification.frontConfig.tsx:993
@@ -362,7 +362,7 @@ msgstr "<0/> a répondu à ton message {0}"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:952
 msgid "<0/> subscribed to you on your article <1/>"
-msgstr "<0/> s'est abonné à toi sur ton article <1/>"
+msgstr "<0/> s'est abonné sur ton article <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:933
 msgid "<0/> tipped your article <1/>"
@@ -1137,7 +1137,7 @@ msgstr "Bottes Avancées"
 
 #: src/utils/translations.tsx:174
 msgid "Advanced Chest"
-msgstr "Plastron Avancé"
+msgstr "Gilet Avancé"
 
 #: src/utils/translations.tsx:192
 msgid "Advanced Gloves"
@@ -1489,7 +1489,7 @@ msgstr "Bottes Basiques"
 
 #: src/utils/translations.tsx:172
 msgid "Basic Chest"
-msgstr "Plastron Basique"
+msgstr "Gilet Basique"
 
 #: src/utils/translations.tsx:190
 msgid "Basic Gloves"
@@ -1772,7 +1772,7 @@ msgstr "Vérifie ton butin!"
 #: src/components/_user/UserEquipments.tsx:146
 #: src/utils/translations.tsx:171
 msgid "Chest"
-msgstr "Torse"
+msgstr "Gilet"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:71
 msgid "Chief"
@@ -2637,27 +2637,27 @@ msgstr "Élections"
 
 #: src/utils/translations.tsx:184
 msgid "Elite Boots"
-msgstr "Bottes d'Élite"
+msgstr "Bottes Élite"
 
 #: src/utils/translations.tsx:95
 msgid "Elite Case"
-msgstr "Caisse d'Élite"
+msgstr "Caisse Élite"
 
 #: src/utils/translations.tsx:175
 msgid "Elite Chest"
-msgstr "Plastron d'Élite"
+msgstr "Gilet Élite"
 
 #: src/utils/translations.tsx:193
 msgid "Elite Gloves"
-msgstr "Gants d'Élite"
+msgstr "Gants Élite"
 
 #: src/utils/translations.tsx:166
 msgid "Elite Helmet"
-msgstr "Casque d'Élite"
+msgstr "Casque Élite"
 
 #: src/utils/translations.tsx:202
 msgid "Elite Pants"
-msgstr "Pantalon d'Élite"
+msgstr "Pantalon Élite"
 
 #: src/pages/user/[userId]/bans.tsx:74
 msgid "Email"
@@ -3508,7 +3508,7 @@ msgstr "Bottes Légendaires"
 
 #: src/utils/translations.tsx:176
 msgid "Legendary Chest"
-msgstr "Plastron Légendaire"
+msgstr "Gilet Légendaire"
 
 #: src/utils/translations.tsx:194
 msgid "Legendary Gloves"
@@ -3728,43 +3728,43 @@ msgstr "Médiéval"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:65
 msgid "Medieval Boots"
-msgstr "Bottes médiévales"
+msgstr "Bottes Médiévales"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:59
 msgid "Medieval Chest"
-msgstr "Plastron médiéval"
+msgstr "Gilet Médiéval"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:68
 msgid "Medieval Gloves"
-msgstr "Gants médiévaux"
+msgstr "Gants Médiévaux"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:56
 msgid "Medieval Helmet"
-msgstr "Casque médiéval"
+msgstr "Casque Médiéval"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:74
 msgid "Medieval Iron Arrow"
-msgstr "Flèche en fer médiévale"
+msgstr "Flèche en fer Médiévale"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:12
 msgid "Medieval Pack"
-msgstr "Pack médiéval"
+msgstr "Pack Médiéval"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:62
 msgid "Medieval Pants"
-msgstr "Pantalon médiéval"
+msgstr "Pantalon Médiéval"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:80
 msgid "Medieval Spear"
-msgstr "Lance médiévale"
+msgstr "Lance Médiévale"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:77
 msgid "Medieval Steel Arrow"
-msgstr "Flèche en acier médiévale"
+msgstr "Flèche en acier Médiévale"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:71
 msgid "Medieval Stone Arrow"
-msgstr "Flèche en pierre médiévale"
+msgstr "Flèche en pierre Médiévale"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:204
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
@@ -3967,7 +3967,7 @@ msgstr "Bottes Mythiques"
 
 #: src/utils/translations.tsx:177
 msgid "Mythic Chest"
-msgstr "Plastron Mythique"
+msgstr "Gilet Mythique"
 
 #: src/utils/translations.tsx:195
 msgid "Mythic Gloves"
@@ -5010,7 +5010,7 @@ msgstr "Bottes Renforcées"
 
 #: src/utils/translations.tsx:173
 msgid "Reinforced Chest"
-msgstr "Plastron Renforcé"
+msgstr "Gilet Renforcé"
 
 #: src/utils/translations.tsx:191
 msgid "Reinforced Gloves"
@@ -5967,7 +5967,7 @@ msgstr "Bottes Tiny Pixel"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:104
 msgid "Tiny Pixel Chest"
-msgstr "Plastron Tiny Pixel"
+msgstr "Gilet Tiny Pixel"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:113
 msgid "Tiny Pixel Gloves"
@@ -6420,7 +6420,7 @@ msgstr "Oreilles de chat de la Saint-Valentin"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:29
 msgid "Valentine Chest"
-msgstr "Plastron de la Saint-Valentin"
+msgstr "Gilet de la Saint-Valentin"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:53
 msgid "Valentine Gloves"
