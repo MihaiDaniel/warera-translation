@@ -282,7 +282,7 @@ msgstr "<0/> hat <1>{0}</1> an <2/> überwiesen"
 
 #: src/components/_political/event/event.frontConfig.tsx:164
 msgid "<0/> is attacking <1/>"
-msgstr ""
+msgstr "<0/> attackiert <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1035
 msgid "<0/> is attacking <1/> in <2/>"
@@ -298,7 +298,7 @@ msgstr "<0/> ist bankrott. Alle Bündnisse werden aufgelöst und alle Regions-Up
 
 #: src/components/_political/event/event.frontConfig.tsx:155
 msgid "<0/> is revolting <1/>"
-msgstr ""
+msgstr "<0/> rebelliert gegen <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1050
 msgid "<0/> is revolting in <1/> against your country"
@@ -4953,7 +4953,7 @@ msgstr "Werber wurde festgelegt"
 
 #: src/pages/user/[userId]/referrals.tsx:146
 msgid "Referrer username"
-msgstr "Benutzername des Werbers"
+msgstr "Benutzername des Werbers (z.B LUGE wenn du keinen hast)"
 
 #: src/pages/user/[userId]/index.tsx:120
 msgid "Refresh every hour"
