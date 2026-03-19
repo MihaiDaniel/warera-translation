@@ -185,7 +185,7 @@ msgstr "<0/> noziedoja <1>{0}</1> <2/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:142
 msgid "<0/> financed a resistance war for <1/> in <2/>"
-msgstr "<0/> finansēja pretošanās kauju <2/> priekš <1/>"
+msgstr "<0/> finansēja <1/> pretošanās kauju <2/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:149
 msgid "<0/> financed a revolt in <1/>"
@@ -193,7 +193,7 @@ msgstr "<0/> finansēja sacelšanos <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:453
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
-msgstr "<0/> finansēja sacelšanos <1/> priekš <2/> pret <3/>"
+msgstr "<0/> finansēja <2/> sacelšanos <1/> pret <3/>"
 
 #. placeholder {0}: data.wage
 #: src/components/_user/notification/notification.frontConfig.tsx:548
@@ -249,7 +249,7 @@ msgstr "<0/> nosargāja <1/> pret <2/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:460
 msgid "<0/> has financed a revolt in <1/> for <2/> against <3/>"
-msgstr "<0/> finansēja pretošanās kauju <1/> priekš <2/> pret <3/>"
+msgstr "<0/> finansēja <2/> pretošanās kauju <1/> pret <3/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:377
 msgid "<0/> has financed resistance in <1/>"
@@ -278,27 +278,27 @@ msgstr "<0/> apspieda pretošanos <1/>"
 #. placeholder {0}: data.money
 #: src/components/_political/event/event.frontConfig.tsx:261
 msgid "<0/> has transferred <1>{0}</1> to <2/>"
-msgstr "<0/> pārskaitīja <1>{0}</1> uz <2/>"
+msgstr "<0/> pārskaitīja <2/> <1>{0}</1>"
 
 #: src/components/_political/event/event.frontConfig.tsx:164
 msgid "<0/> is attacking <1/>"
-msgstr ""
+msgstr "<0/> uzbrūk <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1035
 msgid "<0/> is attacking <1/> in <2/>"
-msgstr "<0/> uzbrūk <1/> <2/>"
+msgstr "<0/> uzbrūk <1/> <2/> reģionā"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1021
 msgid "<0/> is attacking your country in <1/>"
-msgstr "<0/> uzbrūk tavai valstij reģionā <1/>"
+msgstr "<0/> uzbrūk tavai valstij <1/> reģionā"
 
 #: src/components/_political/event/event.frontConfig.tsx:306
 msgid "<0/> is in bankruptcy. Removing all alliances and disabling every region upgrades."
-msgstr "<0/> ir bankrotējusi. Visas alianses tiek atceltas un visu reģionu uzlabojumi - izslēgti."
+msgstr "<0/> ir bankrotējusi. Visas alianses tiek atceltas un visi reģionu uzlabojumi tiek izslēgti."
 
 #: src/components/_political/event/event.frontConfig.tsx:155
 msgid "<0/> is revolting <1/>"
-msgstr ""
+msgstr "<0/> uzsāka sacelšanos <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1050
 msgid "<0/> is revolting in <1/> against your country"
@@ -629,7 +629,7 @@ msgstr "<0>Nemieri</0> atspoguļo iekšējo spriedzi valstī.<1/><2/>Pilsoņi va
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:108
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
-msgstr ""
+msgstr "<0>Tavam profilam ir nepieciešama papildu verifikācija. Lūdzu verificējies ar savu tālruņa numuru pēc iespējas ātrāk, lai varētu turpināt lietot savu profilu. Neverificētiem profilem tiks ierobežota piekļuve pēc 48 stundām, savukārt pēc 5 dienām profils var tikt nobloķēts.</0><1>Tālruņa numuri ir šifrēti un nav redzami nevienam administratoram.</1>"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:86
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
@@ -1025,7 +1025,7 @@ msgstr "Šajā reģionā tika atrasts stratēģiskais resurss, tas dod tā īpa�
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:144
 msgid "A verification code has been sent to {phoneNumber}"
-msgstr ""
+msgstr "Verifikācijas kods tika nosūtīts uz {phoneNumber}"
 
 #: src/components/_political/law/Law.tsx:170
 #: src/components/_political/partyMotion/PartyMotion.tsx:169
@@ -1221,7 +1221,7 @@ msgstr "Alianse lauzta"
 
 #: src/components/_political/event/EventList.tsx:74
 msgid "Alliance formed"
-msgstr "Alianse izveidota"
+msgstr "Alianse noslēgta"
 
 #: src/pages/country/[countryId]/index.tsx:196
 msgid "Alliances"
@@ -1276,7 +1276,7 @@ msgstr "Alianse tika lauzta"
 
 #: src/components/_political/event/event.frontConfig.tsx:324
 msgid "An alliance has been formed"
-msgstr "Alianse tika izveidota"
+msgstr "Alianse tika noslēgta"
 
 #: src/components/_user/auth/LoginFormModal.tsx:94
 msgid "An email with the verification code has been sent to {email}"
@@ -1510,7 +1510,7 @@ msgstr "Kauja"
 #: src/components/_political/event/EventList.tsx:65
 #: src/components/_user/notification/notification.frontConfig.tsx:816
 msgid "Battle ended"
-msgstr "Kauja beigusies"
+msgstr "Kauja beidzās"
 
 #: src/components/_political/event/EventList.tsx:64
 msgid "Battle opened"
@@ -2086,7 +2086,7 @@ msgstr "Tiek patērētas piedaloties kaujās"
 #. placeholder {1}: staticGameConfig.items.cocain.flatStats?.debuffDurationHours
 #: src/utils/translations.tsx:101
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
-msgstr "Tā patērēšana palielina tavu <0>Uzbrukumu</0> par 60% {0}h laikā.<1/> Pēc tam samazina to par tik pat {1}h laikā"
+msgstr "Tās lietošana palielina tavu <0>Uzbrukumu</0> par 60% uz {0}h.<1/> Pēc tam tas tiek samazināts par tik pat uz {1}h"
 
 #: src/components/_layout/LayoutMapOptions.tsx:260
 msgid "Contextual borders"
@@ -2408,11 +2408,11 @@ msgstr "Atradne"
 
 #: src/components/_political/event/EventList.tsx:71
 msgid "Deposit depleted"
-msgstr "Resursu atradne ir izsmelta"
+msgstr "Resursu atradne izsmelta"
 
 #: src/components/_political/event/EventList.tsx:70
 msgid "Deposit discovered"
-msgstr "Atrasta resursu atradne"
+msgstr "Resursu atradne atrasta"
 
 #. placeholder {0}: ts[data.itemCode]
 #: src/components/_political/event/event.frontConfig.tsx:292
@@ -3044,7 +3044,7 @@ msgstr "Dod <0>{0}</0>"
 
 #: src/components/_layout/LayoutMapOptions.tsx:220
 msgid "Globe (experimental)"
-msgstr "Planēta (eksperimentāls)"
+msgstr "Globuss (eksperimentāls)"
 
 #: src/components/_user/UserEquipments.tsx:196
 #: src/utils/translations.tsx:189
@@ -3830,7 +3830,7 @@ msgstr "Uzdevumi"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:123
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Mobilā tālruņa numurs"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:133
 msgid "Money earned from mercenary contracts."
@@ -3929,7 +3929,7 @@ msgstr "Mani Uzņēmumi"
 
 #: src/utils/translations.tsx:98
 msgid "Mysterious Plant"
-msgstr "Aizdomīgs Augs"
+msgstr "Noslēpumains Augs"
 
 #: src/utils/translations.tsx:186
 msgid "Mythic Boots"
@@ -4513,7 +4513,7 @@ msgstr "Maksājums ir izdevies! Paldies, ka atbalsti spēli <3"
 
 #: src/components/_political/event/EventList.tsx:63
 msgid "Peace made"
-msgstr "Pasludināts pamiers"
+msgstr "Pamiers pasludināts"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Pending wage reduction"
@@ -4533,19 +4533,19 @@ msgstr "Galvenais Virsseržants"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:60
 msgid "Phone number verified!"
-msgstr ""
+msgstr "Tālruņa numurs verificēts!"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:99
 msgid "Phone Verification"
-msgstr ""
+msgstr "Tālruņa Verifikācija"
 
 #: src/components/_user/user/UserDropdown.tsx:186
 msgid "Phone verification requested"
-msgstr ""
+msgstr "Pieprasīta tālruņa verifikācija"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:105
 msgid "Phone verification required"
-msgstr ""
+msgstr "Nepieciešama tālruņa verifikācija"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:137
 msgid "Pick a fight!"
@@ -5094,7 +5094,7 @@ msgstr "Republikānisms"
 
 #: src/components/_user/user/UserDropdown.tsx:334
 msgid "Request Phone Verification"
-msgstr ""
+msgstr "Pieprasīt Tālruņa Verifikāciju"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:197
 msgid "Requests:"
@@ -5167,11 +5167,11 @@ msgstr "Sākās sacelšanās!"
 
 #: src/components/_political/event/EventList.tsx:77
 msgid "Revolution ended"
-msgstr "Revolūcija ir beigusies"
+msgstr "Revolūcija beidzās"
 
 #: src/components/_political/event/EventList.tsx:76
 msgid "Revolution started"
-msgstr "Revolūcija ir sākusies"
+msgstr "Revolūcija sākās"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1077
 msgid "Revolution started!"
@@ -5377,7 +5377,7 @@ msgstr "Nosūti ziņu, lai pabeigtu pamācību. Sveicināts kopienā!"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:135
 msgid "Send Code"
-msgstr ""
+msgstr "Nosūtīt kodu"
 
 #: src/components/_other/shop/SkinPackModal.tsx:300
 msgid "Send Gift"
@@ -5905,7 +5905,7 @@ msgstr "Šis lietotājs nav nevienas ģimenes grupas dalībnieks"
 
 #: src/components/_user/user/UserDropdown.tsx:335
 msgid "This will require the user to verify their mobile phone number."
-msgstr ""
+msgstr "Tas liks lietotājam verificēt savu mobilā tālruņa numuru."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:132
 msgid "Time to fight for your country! Let's join the action."
@@ -6430,7 +6430,7 @@ msgstr "Apstiprinājuma kods"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:50
 msgid "Verification code sent!"
-msgstr ""
+msgstr "Verifikācijas kods nosūtīts!"
 
 #: src/components/_user/auth/LoginFormModal.tsx:149
 #: src/components/_user/modals/PhoneVerificationModal.tsx:181
@@ -6502,7 +6502,7 @@ msgstr "pērk"
 
 #: src/components/_political/event/EventList.tsx:62
 msgid "War declared"
-msgstr "Karš pasludināts"
+msgstr "Karš pieteikts"
 
 #: src/pages/war/[warId]/index.tsx:49
 msgid "War Ended"
