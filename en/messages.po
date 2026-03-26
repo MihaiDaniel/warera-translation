@@ -1618,7 +1618,7 @@ msgid "Battle Hero"
 msgstr "Battle Hero"
 
 #: src/components/_military/battleLoot/BattleLootsCard.tsx:42
-#: src/components/_military/damageRanking/DamageRankingList.tsx:208
+#: src/components/_military/damageRanking/DamageRankingList.tsx:220
 msgid "Battle loots"
 msgstr "Battle loots"
 
@@ -3086,9 +3086,9 @@ msgid "Every <0/> damage dealt by a side rolls a <1/> into its round loot pool. 
 msgstr "Every <0/> damage dealt by a side rolls a <1/> into its round loot pool. On round end, {winnerPercent}% of rolled cases go to the winning side's battle pool and {loserPercent}% go to the losing side's battle pool. Items are ranked by estimated value and distributed in order: rank 1 receives the most valuable item, rank 2 the next, and so on."
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/DamageRankingList.tsx:211
-msgid "Every <0/> damage dealt by a side rolls a <1>{0}</1> into its round loot pool.<2>On round end, {winnerPercent}% of rolled cases go to the winning side's battle pool and {loserPercent}% go to the losing side's battle pool.</2><3>Items are ranked by estimated value and distributed in order: rank 1 receives the most valuable item, rank 2 the next, and so on.</3>"
-msgstr "Every <0/> damage dealt by a side rolls a <1>{0}</1> into its round loot pool.<2>On round end, {winnerPercent}% of rolled cases go to the winning side's battle pool and {loserPercent}% go to the losing side's battle pool.</2><3>Items are ranked by estimated value and distributed in order: rank 1 receives the most valuable item, rank 2 the next, and so on.</3>"
+#: src/components/_military/damageRanking/DamageRankingList.tsx:223
+msgid "Every <0/> damage dealt by each side rolls an <1>{0}</1> to its own side's loot pool.<2>On round end, that round's loot pool is distributed: rank 1 receives the most valuable item, rank 2 the next, and so on.</2><3>When the battle is over, the winning side gets an additional roll for every <4/> and the losing side for every <5/> total battle damage dealt by their own sides.</3>"
+msgstr "Every <0/> damage dealt by each side rolls an <1>{0}</1> to its own side's loot pool.<2>On round end, that round's loot pool is distributed: rank 1 receives the most valuable item, rank 2 the next, and so on.</2><3>When the battle is over, the winning side gets an additional roll for every <4/> and the losing side for every <5/> total battle damage dealt by their own sides.</3>"
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
 msgid "Everyone participates automatically"
@@ -4066,6 +4066,10 @@ msgstr "Looted money"
 msgid "Loots"
 msgstr "Loots"
 
+#: src/components/_military/damageRanking/DamageRankingList.tsx:249
+msgid "Loots ({side})"
+msgstr "Loots ({side})"
+
 #: src/components/_other/shop/skin.frontConfig.tsx:20
 msgid "Love Paper Jet"
 msgstr "Love Paper Jet"
@@ -4706,7 +4710,7 @@ msgstr "No congress members"
 msgid "No contributions yet"
 msgstr "No contributions yet"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:247
+#: src/components/_military/damageRanking/DamageRankingList.tsx:258
 msgid "No damages ranking yet."
 msgstr "No damages ranking yet."
 
@@ -4714,7 +4718,7 @@ msgstr "No damages ranking yet."
 msgid "No donations yet"
 msgstr "No donations yet"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:249
+#: src/components/_military/damageRanking/DamageRankingList.tsx:260
 msgid "No ground ranking yet."
 msgstr "No ground ranking yet."
 
@@ -4738,7 +4742,7 @@ msgstr "No military units found"
 msgid "No missions available"
 msgstr "No missions available"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:250
+#: src/components/_military/damageRanking/DamageRankingList.tsx:261
 msgid "No money ranking yet."
 msgstr "No money ranking yet."
 
@@ -6209,7 +6213,7 @@ msgstr "Settings"
 msgid "Shop"
 msgstr "Shop"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:265
+#: src/components/_military/damageRanking/DamageRankingList.tsx:277
 #: src/components/_social/ArticleTags.tsx:268
 #: src/components/_social/ArticleTags.tsx:319
 #: src/components/_social/ArticleTags.tsx:427
@@ -8028,7 +8032,7 @@ msgstr "Your premium subscription has been activated!"
 msgid "Your premium subscription has expired!"
 msgstr "Your premium subscription has expired!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:271
+#: src/components/_military/damageRanking/DamageRankingList.tsx:283
 msgid "Your rank"
 msgstr "Your rank"
 

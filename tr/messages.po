@@ -1618,7 +1618,7 @@ msgid "Battle Hero"
 msgstr ""
 
 #: src/components/_military/battleLoot/BattleLootsCard.tsx:42
-#: src/components/_military/damageRanking/DamageRankingList.tsx:208
+#: src/components/_military/damageRanking/DamageRankingList.tsx:220
 msgid "Battle loots"
 msgstr ""
 
@@ -3086,8 +3086,8 @@ msgid "Every <0/> damage dealt by a side rolls a <1/> into its round loot pool. 
 msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/DamageRankingList.tsx:211
-msgid "Every <0/> damage dealt by a side rolls a <1>{0}</1> into its round loot pool.<2>On round end, {winnerPercent}% of rolled cases go to the winning side's battle pool and {loserPercent}% go to the losing side's battle pool.</2><3>Items are ranked by estimated value and distributed in order: rank 1 receives the most valuable item, rank 2 the next, and so on.</3>"
+#: src/components/_military/damageRanking/DamageRankingList.tsx:223
+msgid "Every <0/> damage dealt by each side rolls an <1>{0}</1> to its own side's loot pool.<2>On round end, that round's loot pool is distributed: rank 1 receives the most valuable item, rank 2 the next, and so on.</2><3>When the battle is over, the winning side gets an additional roll for every <4/> and the losing side for every <5/> total battle damage dealt by their own sides.</3>"
 msgstr ""
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
@@ -4066,6 +4066,10 @@ msgstr "Yağmalanan para"
 msgid "Loots"
 msgstr ""
 
+#: src/components/_military/damageRanking/DamageRankingList.tsx:249
+msgid "Loots ({side})"
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:20
 msgid "Love Paper Jet"
 msgstr "Aşk Dolu Kağıt Uçak"
@@ -4706,7 +4710,7 @@ msgstr "Meclis üyesi yok"
 msgid "No contributions yet"
 msgstr "Henüz katkı yok"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:247
+#: src/components/_military/damageRanking/DamageRankingList.tsx:258
 msgid "No damages ranking yet."
 msgstr "Henüz hasar sıralaması yok."
 
@@ -4714,7 +4718,7 @@ msgstr "Henüz hasar sıralaması yok."
 msgid "No donations yet"
 msgstr "Henüz bağış yok"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:249
+#: src/components/_military/damageRanking/DamageRankingList.tsx:260
 msgid "No ground ranking yet."
 msgstr "Henüz zemin sıralaması yok."
 
@@ -4738,7 +4742,7 @@ msgstr "Askeri birlik bulunamadı"
 msgid "No missions available"
 msgstr "Mevcut görev yok"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:250
+#: src/components/_military/damageRanking/DamageRankingList.tsx:261
 msgid "No money ranking yet."
 msgstr "Henüz para sıralaması yok."
 
@@ -6209,7 +6213,7 @@ msgstr "Ayarlar"
 msgid "Shop"
 msgstr "Mağaza"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:265
+#: src/components/_military/damageRanking/DamageRankingList.tsx:277
 #: src/components/_social/ArticleTags.tsx:268
 #: src/components/_social/ArticleTags.tsx:319
 #: src/components/_social/ArticleTags.tsx:427
@@ -8028,7 +8032,7 @@ msgstr "Premium aboneliğin aktif edildi!"
 msgid "Your premium subscription has expired!"
 msgstr "Premium aboneliğin süresi doldu!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:271
+#: src/components/_military/damageRanking/DamageRankingList.tsx:283
 msgid "Your rank"
 msgstr "Sıralaman"
 
